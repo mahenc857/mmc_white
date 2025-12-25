@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!--<![endif]-->
+<head>
+	<title>Mahendra Metal Corporarion</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<!-- Seo Meta -->
+		<meta name="description" content="Colangine - Responsive Multipurpose HTML Template">
+		<meta name="keywords" content="Colangine, corporate, modern, creative, flat, clean, theme, template, themeforest">
+
+	<!-- Styles -->
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/headerstyle.css" media="screen" />	
+		     <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles/font-awesome/css/font-awesome.css" />
+	<!-- Favicons -->
+		<link rel="shortcut icon" href="images/mmc_title.ico">
+		<link rel="apple-touch-icon" href="images/logo_icon.png">
+
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=EmulateIE8; IE=EDGE" />
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!--[if IE 8]><link rel="stylesheet" type="text/css" href="styles/ie.css" media="screen" /><![endif]-->
+</head>
+<body>
+
+		<header id="header">
+			  <?php include 'header.php';?><!-- second head -->
+		</header>
+
+	<div class="breadcrumb">
+        <h3 class="heading"><span>Contact Us</span></h3>
+        <div class="container">
+            <div class="services-grids"> 
+			<div class="col-md-4 services-grids-info">
+				<img src="images/contact-us.jpg" alt="">					
+			</div>               
+			<div class="col-md-4 services-grids-info sgi">
+				<h3>Registered Office</h3>
+				<p>Address :- 23, Shri Kotwale Niwas, Shop Number 3, 3rd Ln, Khetwadi, Girgaon, Mumbai, Maharashtra 400004</p>
+                <p>Email :- mmc_mooji@yahoo.co.in</p>
+                <p>Telephone :- 91-22-2382 7519,91-22-6636 2940</p>
+				<hr>
+			</div>               
+                
+                <div class="col-md-4 services-grids-info sgi">
+                    <h3>Administration Head</h3>
+                    <p>Name:- Bhuraram Choudhary</p>
+                    <p>Mobile:- +91 98200 80106</p>
+                    <hr>
+			  </div>
+			<div class="clearfix"> </div>
+		</div>
+        </div>
+        </div>
+
+    
+    <!-- contact form -->
+    <div class="contact-form">
+	<h3 class="heading"><span>Mail Us</span></h3>
+	<div class="container">
+		<form action="#" method="post">
+			<input type="text" placeholder="Name" required="">
+			<input type="email" placeholder="Email" required="">
+			<input type="text" placeholder="Telephone" required="">
+			<textarea placeholder="Message" required=""></textarea>
+			<button class="btn1">Submit</button>
+		</form>
+	</div>
+</div>
+    <!-- //contact form -->
+        <!-- //contact -->
+    <!-- map -->
+<!--    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387142.84038702346!2d-74.25819125880415!3d40.70583158896605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1491973492375" style="border:0" allowfullscreen=""></iframe>-->
+    <iframe class="googlemaps" src="https://www.google.com/maps/embed/v1/place?q=18.957610,72.824700&amp;key=AIzaSyCaTYCZUzZ3Gx9Rmp8lH8iKRb_vzakZGGc"></iframe>
+    <!-- //map -->
+		<!-- footer -->
+<?php include 'footer.php';?>
+<!-- /footer -->	
+<div id="toTop"><i class="icon-angle-up"></i></div>
+<!-- Scripts -->
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<!-- Here stars scrolling -->
+<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+<!-- Here stars scrolling -->		
+	<!--header scroller -->
+    <script type="text/javascript" src="js/superfish.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<!--header scroller -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+					$("#product").removeClass("current");
+            $("#home").removeClass("current");	
+            $("#technical").removeClass("current");
+            $("#quality").removeClass("current");
+            $("#info").addClass("current");			
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+	<!-- scrolling script -->
+	
+</body>
+</html>

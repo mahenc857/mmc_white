@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<!--<![endif]-->
+<head>
+	<title>Mahendra Metal Corporarion</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<!-- Seo Meta -->
+		<meta name="description" content="Colangine - Responsive Multipurpose HTML Template">
+		<meta name="keywords" content="Colangine, corporate, modern, creative, flat, clean, theme, template, themeforest">
+
+	<!-- Styles -->
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="css/headerstyle.css" media="screen" />
+		     <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="styles/font-awesome/css/font-awesome.css" />
+	<!-- Favicons -->
+		<link rel="shortcut icon" href="images/mmc_title.ico">
+		<link rel="apple-touch-icon" href="images/logo_icon.png">
+
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=EmulateIE8; IE=EDGE" />
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<!--[if IE 8]><link rel="stylesheet" type="text/css" href="styles/ie.css" media="screen" /><![endif]-->
+</head>
+<body>
+
+		<header id="header">
+			  <?php include 'header.php';?><!-- second head -->
+		</header>
+
+	<div class="breadcrumb">
+        <h3 class="heading"><span>About Us</span></h3>
+        <div class="container">
+            <div class="services-grids">
+                <div class="col-md-4 services-grids-info sgi">
+                
+                <p>“'Mahendra Metal Corporation' 'An ISO 9001: 2015 Certified Company', Mumbai, was established in the year 1973 with the aim of catering to the growing demands of Stainless Steel and Nickel Alloys. Mahendra Metal Corporation is a leading supplier of various Stainless Steel and Nickel Alloys products.” </p>
+                                
+                <p>”We have a team of young visionaries who endeavor for excellence in every aspect related to metals. We strongly believe in our core values and are always in the pursuit of success along the lines of ethical business practices.”</p>
+                     <p>”Keeping in mind its customer centric approach, timely delivery and quality products, the Company has grown in size and products range. Over the decades Mahendra Metal Corporation has provided immense support to this industry In India and has built various congenial customer relations. Now with the new generation of entrepreneurs joining the company, the company aims at expanding on a global scale with the domestic supply and export of Stainless Steel and Nickel Alloys Sheet , Plate and Coil.”</p>
+                     <p>”Our aim is to provide customers with Stainless Steel ,Nickel Alloys Sheet , Plate and Coil under one roof. We Supply best quality materials from our end to meet the requirement of our customers.”</p>
+                     <p>”Our unique selling proposition is that alongside the standard sizes available, we even provide the clients the best Customized solutions to cater exactly to their needs. We provide customized products to the customers on the basis of drawing and sampling to exactly fit to a customer’s need.”</p>
+                     <p>”We conduct tests for Chemical, Physical, Mechanical, Ultrasonic, Micro, IGC, and any other aspects from Govt. & Internationally approved certification bodies. Quality is given priority and to main supreme quality standards we have associated with various companies who make sure that there is no compromise in the quality of products. Committed To Quality. Committed To You.”</p>
+                    <hr>
+                </div>
+                
+			<div class="col-md-4 services-grids-info sgi">
+				<h3>Our Values</h3>
+				<p>“Our Clients are our most valuable assets and for that we use our skilled people and latest technology and equipments to fulfill their needs.” </p>
+				<hr>
+			</div>
+                
+                <div class="col-md-4 services-grids-info sgi">
+				<h3>Why Us</h3>
+				<p>“We are a renowned name in this domain engaged in providing various types of SS, CS & AS Products; we have gained immense client`s appreciation, Owing to our excellent product quality and transparent dealings.” </p>
+                    <hr>
+			</div>
+                
+			<div class="col-md-4 services-grids-info">
+				<img src="images/about-us.jpg" alt="">					
+			</div>
+			<div class="col-md-4 services-grids-info sgi1">
+				<p>“Specialties that make us a profitable business partner for our clients are:” </p>
+				<ul>
+					<li><i class="glyphicon glyphicon-arrow-right"> </i><a href="#">Cost-effective rates</a></li>
+					<li><i class="glyphicon glyphicon-arrow-right"> </i><a href="#">Customized solution</a></li>
+					<li><i class="glyphicon glyphicon-arrow-right"> </i><a href="#">Customized packaging</a></li>
+					<li><i class="glyphicon glyphicon-arrow-right"> </i><a href="#">Customer focused approach</a></li>                    
+                    <li><i class="glyphicon glyphicon-arrow-right"> </i><a href="#">Easy payment modes</a></li>
+					<li><i class="glyphicon glyphicon-arrow-right"> </i><a href="#">Good Financial Position & TQM</a></li>
+					<li><i class="glyphicon glyphicon-arrow-right"> </i><a href="#">Superior quality products</a></li>
+					<li><i class="glyphicon glyphicon-arrow-right"> </i><a href="#">Timely delivery schedule</a></li>
+					<li><i class="glyphicon glyphicon-arrow-right"> </i><a href="#">Timely delivery of products</a></li>
+					<li><i class="glyphicon glyphicon-arrow-right"> </i><a href="#">Experience and specialty in work</a></li>
+				</ul>
+                <hr>
+			</div>
+                 <div class="col-md-4 services-grids-info sgi">
+				<h3>Our Vision</h3>
+				<p>“We help customers develop their energy resources; bringing world class capability and delivering it locally. We promote commercial arrangements that are aligned to our customers’ needs, allowing us to deliver more value to the customer while increasing the returns from our most precious asset – our people.” </p> 
+                    <hr>                   
+			</div>
+                <div class="col-md-4 services-grids-info sgi">
+				<h3>Our Mission</h3>
+				<p>“Provide technically sound solutions and create additional value in mutual interest with our customers resulting in being a preferred Stockists & Suppliers within the Stockists & Suppliers industry.” </p> 
+			<hr>
+              </div>
+                <div class="col-md-4 services-grids-info sgi">
+                    <p>“We would appreciate to get your esteemed enquires and look forward to the pleasure receiving your valuable response.”</p>
+			  </div>
+			<div class="clearfix"> </div>
+		</div>
+        </div>
+        </div>
+
+		<!-- footer -->
+<?php include 'footer.php';?>
+<!-- /footer -->
+<div id="toTop"><i class="icon-angle-up"></i></div>
+<!-- Scripts -->
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<!-- Here stars scrolling -->
+<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+<!-- Here stars scrolling -->		
+	<!--header scroller -->
+    <script type="text/javascript" src="js/superfish.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	<!--header scroller -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+					$("#product").removeClass("current");
+            $("#home").removeClass("current");	
+            $("#technical").removeClass("current");
+            $("#quality").removeClass("current");
+            $("#info").addClass("current");				
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+	<!-- scrolling script -->
+	
+</body>
+</html>
