@@ -33,9 +33,15 @@
 </head>
 <body>
 
-		<header id="header">
-			  <?php include 'header.php';?><!-- second head -->
-		</header>
+	<div id="header-container"></div>
+
+    <script>
+    fetch("header.html")
+        .then(res => res.text())
+        .then(data => {
+        document.getElementById("header-container").innerHTML = data;
+        });
+    </script>
 
 	<div class="breadcrumb">
         <h3 class="heading"><span>About Us</span></h3>
@@ -102,9 +108,17 @@
         </div>
         </div>
 
-		<!-- footer -->
-<?php include 'footer.php';?>
-<!-- /footer -->
+		 <!-- footer -->
+    <div id="footer-container"></div>
+
+    <script>
+        fetch("footer.html")
+            .then(res => res.text())
+            .then(data => {
+            document.getElementById("footer-container").innerHTML = data;
+            });
+    </script>
+    <!-- /footer -->
 <div id="toTop"><i class="icon-angle-up"></i></div>
 <!-- Scripts -->
 	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>

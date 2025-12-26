@@ -33,9 +33,15 @@
 </head>
 <body>
 
-		<header id="header">
-			  <?php include 'header.php';?><!-- second head -->
-		</header>
+	<div id="header-container"></div>
+
+    <script>
+    fetch("header.html")
+        .then(res => res.text())
+        .then(data => {
+        document.getElementById("header-container").innerHTML = data;
+        });
+    </script>
 
 	<div class="breadcrumb">
         <h3 class="heading"><span>Contact Us</span></h3>
@@ -83,9 +89,17 @@
 <!--    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387142.84038702346!2d-74.25819125880415!3d40.70583158896605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sin!4v1491973492375" style="border:0" allowfullscreen=""></iframe>-->
     <iframe class="googlemaps" src="https://www.google.com/maps/embed/v1/place?q=18.957610,72.824700&amp;key=AIzaSyCaTYCZUzZ3Gx9Rmp8lH8iKRb_vzakZGGc"></iframe>
     <!-- //map -->
-		<!-- footer -->
-<?php include 'footer.php';?>
-<!-- /footer -->	
+		 <!-- footer -->
+    <div id="footer-container"></div>
+
+    <script>
+        fetch("footer.html")
+            .then(res => res.text())
+            .then(data => {
+            document.getElementById("footer-container").innerHTML = data;
+            });
+    </script>
+    <!-- /footer -->	
 <div id="toTop"><i class="icon-angle-up"></i></div>
 <!-- Scripts -->
 	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>

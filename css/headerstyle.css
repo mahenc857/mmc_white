@@ -74,7 +74,7 @@ a:hover {
 	width:23.0%;
 }
 .row {
-	width: 1080px;
+	/* width: 1080px; */
 	margin: 0 auto;
 	padding: 0 30px;
 }
@@ -110,7 +110,7 @@ a:hover {
 ----------------------------------------------------------------------------------------------------*/
 
 .breadcrumb {
-    padding: 130px 0 0 0;
+    padding: 150px 0 0 0;
     background-color: #ffffff;
 }
 
@@ -297,7 +297,7 @@ li.sfHover > a > .sf-sub-indicator {
 }
 .second-head .sf-menu {
 	float: right;
-	margin: 40px 0;
+	margin: 40px 120px 40px 0;
 	-webkit-transition: margin 0.3s;
 	-moz-transition: margin 0.3s;
 	-ms-transition: margin 0.3s;
@@ -449,7 +449,7 @@ li.sfHover > a > .sf-sub-indicator {
 
 .logo {
 	margin: 16px 0;
-	width: 100%;
+	width: 50%;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -495,13 +495,13 @@ li.sfHover > a > .sf-sub-indicator {
 }
 .small .logo {
 	margin: 10px 0;
-	width: 50%;
+	width: 25%;
 }
 .small .head-social {
 	margin: 12px 0 12px 20px;
 }
 .small .sf-menu {
-	margin: 14px 0;
+	margin: 14px 120px 14px 0;
 }
 
 .head-two .logo {
@@ -638,4 +638,3 @@ li.sfHover > a > .sf-sub-indicator {
 	.sticky {position: relative }
 	
 }
-
