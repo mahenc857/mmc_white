@@ -1,17 +1,46 @@
 function mycarousel4_initCallback(e){e.buttonNext.hover(function(){e.stopAuto()},function(){e.startAuto()});e.buttonPrev.hover(function(){e.stopAuto()},function(){e.startAuto()});e.clip.hover(function(){e.stopAuto()},function(){e.startAuto()})};
-function checkWindowSize() {
-	if (jQuery(window).width() > 750) {
-		jQuery('.second-head .sf-menu').css('display', 'block').removeClass("xactive");
-	} else {
-		jQuery('.second-head .sf-menu').css('display', 'none');
-	}
+function getDeviceType() {
+  if (window.matchMedia("(min-width: 100px) and (max-width: 479px)").matches) {
+    return "mobile-portrait";
+  }
 
-	if (jQuery(window).width() > 462) {
-		jQuery('.first-head .sf-menu').css('display', 'block').removeClass("xactive");
-	} else {
-		jQuery('.first-head .sf-menu').css('display', 'none');
-	}
+  if (window.matchMedia("(min-width: 480px) and (max-width: 767px)").matches) {
+    return "mobile-landscape";
+  }
+
+  if (window.matchMedia("(min-width: 768px) and (max-width: 959px)").matches) {
+    return "tablet-portrait";
+  }
+
+  if (window.matchMedia("(min-width: 959px) and (max-width: 1177px)").matches) {
+    return "tablet-landscape";
+  }
+
+  return "desktop";
 }
+
+function checkWindowSize() {
+  const device = getDeviceType();
+
+  // SECOND HEADER MENU
+  if (device === "desktop" || device.startsWith("tablet")) {
+    jQuery('.second-head .sf-menu')
+      .css('display', 'block')
+      .removeClass('xactive');
+  } else {
+    jQuery('.second-head .sf-menu').css('display', 'none');
+  }
+
+  // FIRST HEADER MENU (if used)
+  if (device === "mobile-portrait") {
+    jQuery('.first-head .sf-menu').css('display', 'none');
+  } else {
+    jQuery('.first-head .sf-menu')
+      .css('display', 'block')
+      .removeClass('xactive');
+  }
+}
+
 function RoundLayout( e ) {
 	var widthround = jQuery('#layout').width();
 	jQuery('.roundabout').css('width', widthround + 'px');
